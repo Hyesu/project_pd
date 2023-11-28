@@ -1,0 +1,21 @@
+# client ignores
+Logs/*
+Temp/*
+UserSettings/*
+.vsconfig
+client.sln
+Library/*
+.svn/*
+Assembly-CSharp.csproj
+ProjectSettings/*
+
+# track only scripts
+Assets/*
+!Assets/Scripts
+
+# common source ignores
+**/.vs/*
+**/bin/*
+**/obj/*
+**/.editorconfig
+**/.idea/*
