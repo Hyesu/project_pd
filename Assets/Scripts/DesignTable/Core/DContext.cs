@@ -50,7 +50,7 @@ namespace DesignTable.Core
             {
                 using (var sr = new StreamReader(filePath))
                 {
-                    string json = await sr.ReadToEndAsync();
+                    string json = sr.ReadToEnd();
                     var jsonObj = JObject.Parse(json);
                     jsonObjs.Add(jsonObj);
                 }
