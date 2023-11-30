@@ -44,9 +44,6 @@ public class HGame : MonoBehaviour
 
         D = new DContext("Assets/Resources/DesignDatas/");
         D.Initialize();
-        
-        bool debug = true;
-        debug = false;
     }
 
     void Update()
