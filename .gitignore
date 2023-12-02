@@ -10,6 +10,7 @@ Assembly-CSharp.csproj
 ProjectSettings/*
 
 # track only scripts
+Sketches/*
 Assets/*
 !Assets/Scripts
 
